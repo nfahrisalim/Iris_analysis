@@ -1,0 +1,28 @@
+# Abaikan folder environment dan konfigurasi pribadi
+.kaggle/
+big-data-H071231031/
+__pycache__/
+*.pyc
+
+# Abaikan file output gambar dan hasil visualisasi
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Abaikan file hasil analisis atau ekspor
+*.xlsx
+*.csv
+*.tsv
+
+# Abaikan file sementara atau backup
+*.tmp
+*.bak
+
+# Abaikan file teks umum (jika tidak ingin disimpan di repo)
+test.txt
+
+# Spesifik untuk nama file dari screenshot (jika tidak ingin dimasukkan ke git)
+hasil_sepal_scatter
+sepal_scatter
+Iris

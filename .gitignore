@@ -1,6 +1,6 @@
 # Abaikan folder environment dan konfigurasi pribadi
 .kaggle/
-big-data-H071231031/
+.big-data-H071231031/
 __pycache__/
 *.pyc
 

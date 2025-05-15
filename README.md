@@ -1,5 +1,3 @@
-Berikut adalah contoh file `README.md` dalam bahasa Inggris untuk proyek big data analisis Iris:
-
 ````markdown
 # Big Data Project: Iris Dataset Analysis
 

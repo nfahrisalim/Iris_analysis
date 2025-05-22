@@ -11,9 +11,11 @@ st.set_page_config(page_title="Iris Analyzer", page_icon="🌸", layout="wide")
 
 @st.cache_data
 def load_data():
-    client = InsecureClient('http://localhost:9870')
-    with client.read('/Iris.csv', encoding='utf-8') as reader:
-        df = pd.read_csv(reader)
+    # client = InsecureClient('http://localhost:9870')
+    # with client.read('/Iris.csv', encoding='utf-8') as reader:
+    #     df = pd.read_csv(reader)
+    # Pakai ini saja kalau mau lewat Hadoop
+    df = pd.read_csv('Iris.csv')
     return df
 
 

@@ -1,13 +1,10 @@
-Berikut adalah contoh file `README.md` dalam bahasa Inggris untuk proyek big data analisis Iris:
-
-````markdown
-# Big Data Project: Iris Dataset Analysis
-
+# Iris Dataset Analysis
 This project focuses on analyzing the Iris dataset using Python, Apache Spark, and data visualization libraries. It is developed as part of the Big Data course at the Information Systems Program, Universitas Hasanuddin (UNHAS), 2025.
 
-## 1. Prerequisites & Tool Verification
-
+## Prerequisites & Tool Verification
 Before starting, ensure the following tools are installed and properly configured in your system's PATH:
+
+````markdown
 
 ```bash
 python --version
@@ -20,7 +17,7 @@ If any command is unrecognized, make sure the tool is installed and its installa
 
 ---
 
-## 2. Project Setup
+## Project Setup
 
 ### a. Create Project Folder
 
@@ -51,7 +48,7 @@ deactivate
 
 ---
 
-## 3. Install Dependencies
+## Install Dependencies
 
 Once the virtual environment is active, install the required Python libraries:
 
@@ -62,7 +59,7 @@ pip install pandas pyarrow matplotlib pyspark kaggle
 
 ---
 
-## 4. Dataset Download: Iris.csv
+## Dataset Download: Iris.csv
 
 ### Option 1: From GitHub
 
@@ -95,7 +92,7 @@ copy C:\Data_NIM\iris.csv %USERPROFILE%\bigdata_iris\iris.csv
 
 ---
 
-## 5. Upload to Hadoop (Optional)
+## Upload to Hadoop (Optional)
 
 ### a. Start Hadoop Services
 
@@ -114,7 +111,7 @@ hdfs dfs -ls /user/iris
 
 ---
 
-## 6. VS Code Setup
+## VS Code Setup
 
 ### a. Open the Project in VS Code
 
@@ -130,7 +127,7 @@ code %USERPROFILE%\bigdata_iris
 
 ---
 
-## 7. Run the Analysis Script
+## Run the Analysis Script
 
 Activate the environment and run the script:
 
